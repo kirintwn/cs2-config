@@ -1,5 +1,13 @@
 # Kirin's Counter-Strike 2 configuration
 
+## Window settings
+
+### Turning off Filter Keys
+
+- `Settings` => `Ease of Access` => `Keyboard`
+  - Uncheck `Use Filter Keys`
+  - Uncheck `Allow the shortcue key to start Filter Keys`
+
 ## Nvidia control panel
 
 | Setting               | Value                      |

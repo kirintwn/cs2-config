@@ -6,7 +6,7 @@
 
 - `Settings` => `Ease of Access` => `Keyboard`
   - Uncheck `Use Filter Keys`
-  - Uncheck `Allow the shortcue key to start Filter Keys`
+  - Uncheck `Allow the shortcut key to start Filter Keys`
 
 ## Nvidia control panel
 

@@ -1,6 +1,6 @@
 # Kirin's Counter-Strike 2 configuration
 
-## Window settings
+## Windows settings
 
 ### Turning off Filter Keys
 

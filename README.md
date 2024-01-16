@@ -61,7 +61,7 @@
 | Global Shadow Quality            | High        |
 | Model/Texture Detail             | Medium      |
 | Texture Filtering Mode           | Bilinear    |
-| Shader Detail                    | Low         |
+| Shader Detail                    | High        |
 | Particle Detail                  | Low         |
 | Ambient Occlusion                | Medium      |
 | High Dynamic Range               | Performance |

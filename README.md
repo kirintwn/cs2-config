@@ -1,5 +1,7 @@
 # Kirin's Counter-Strike 2 configuration
 
+High level overview: [settings.gg](https://settings.gg/Kirintw)
+
 ## Windows settings
 
 ### Turning off Filter Keys
@@ -25,15 +27,11 @@
 | Scaling mode                                        | Aspect ratio |
 | Override the scaling mode set by games and programs | True         |
 
-## Launch options for Counter-Strike 2 in steam
+## Launch options for Counter-Strike 2 in Steam
 
-```
--novid -high -console +exec autoexec
-```
+None.
 
-\*1 `-novid` is not working currently
-
-## In-game settings
+## Counter-Strike 2 In-game settings
 
 ### Video
 
@@ -52,27 +50,29 @@
 
 #### Advanced video
 
-| Setting                          | Value       |
-| :------------------------------- | ----------- |
-| Boost Player Contrast            | Enabled     |
-| Wait for Vertical Sync           | Disabled    |
-| Current Video Values Preset      | Custom      |
-| Multisampling Anti-Aliasing Mode | CMAA2       |
-| Global Shadow Quality            | High        |
-| Model/Texture Detail             | Medium      |
-| Texture Filtering Mode           | Bilinear    |
-| Shader Detail                    | High        |
-| Particle Detail                  | Low         |
-| Ambient Occlusion                | Medium      |
-| High Dynamic Range               | Performance |
-| FidelityFX Super Resolution      | Disabled    |
-| NVIDIA Reflex Low Latency        | Enabled     |
+| Setting                          | Value           |
+| :------------------------------- | --------------- |
+| Boost Player Contrast            | Enabled         |
+| Wait for Vertical Sync           | Disabled        |
+| Current Video Values Preset      | Custom          |
+| Multisampling Anti-Aliasing Mode | None            |
+| Global Shadow Quality            | High            |
+| Model/Texture Detail             | Medium          |
+| Texture Filtering Mode           | Anisotropic 16X |
+| Shader Detail                    | High            |
+| Particle Detail                  | Low             |
+| Ambient Occlusion                | Medium          |
+| High Dynamic Range               | Performance     |
+| FidelityFX Super Resolution      | Disabled        |
+| NVIDIA Reflex Low Latency        | Enabled         |
 
-### Config files
+## How to use the config files
 
-extract the contents of the cfg folder into the following path:
+Use the [sync.sh](./sync.sh) to copy the cfg files programmatically,
+or extract the contents of the [cfg](./cfg) folder into the following path manually:
 `\...\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\`
 
 ## References
 
 - [ArmynC/ArminC-AutoExec](https://github.com/ArmynC/ArminC-AutoExec)
+- [xPaw/CS2](https://github.com/xPaw/CS2)

@@ -8,7 +8,9 @@ High level overview: [settings.gg](https://settings.gg/Kirintw)
 
 - `Settings` => `Ease of Access` => `Keyboard`
   - Uncheck `Use Filter Keys`
-  - Uncheck `Allow the shortcut key to start Filter Keys`
+    - Uncheck `Allow the shortcut key to start Filter Keys` and all the other options in the section
+  - Uncheck `Use Sticky Keys`
+    - Uncheck all the options in the section
 
 ## Nvidia control panel
 

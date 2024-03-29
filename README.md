@@ -4,13 +4,16 @@ High level overview: [settings.gg](https://settings.gg/Kirintw)
 
 ## Windows settings
 
-### Turning off Filter Keys
+### Turning off unwanted hotkeys
 
-- `Settings` => `Ease of Access` => `Keyboard`
+- `Settings` => `Accessibility` => `Keyboard`
   - Uncheck `Use Filter Keys`
     - Uncheck `Allow the shortcut key to start Filter Keys` and all the other options in the section
   - Uncheck `Use Sticky Keys`
     - Uncheck all the options in the section
+- `Settings` => `Time & language` => Typing => Advanced keyboard settings => `Input language hot keys` => `Advanced Key Settings` => `Change Key Sequence`
+  - `Switch Input Language`: `Ctrl + Shift`
+  - `Switch Keyboard Layout`: `Not Assigned`
 
 ## Nvidia control panel
 
